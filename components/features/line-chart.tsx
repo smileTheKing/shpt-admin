@@ -39,7 +39,7 @@ const chartConfig = {
 
 export function LineChartComponent() {
   return (
-    <Card className="w-[500px]">
+    <Card className="sm:w-[500px] w-fit">
       <CardHeader>
         <CardTitle>Line Chart - Dots</CardTitle>
         <CardDescription>January - June 2024</CardDescription>

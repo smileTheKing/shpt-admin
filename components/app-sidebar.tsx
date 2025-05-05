@@ -74,13 +74,13 @@ const data = {
 
     {
       title: "Services",
-      url: "#",
+      url: "services",
       icon: BoxIcon,
       isActive: true,
     },
     {
       title: "Settings",
-      url: "#",
+      url: "settings",
       icon: Settings2,
       isActive: true,
     },

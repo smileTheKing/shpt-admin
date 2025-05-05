@@ -39,7 +39,7 @@ const chartConfig = {
 
 export function BarChartComponent() {
   return (
-    <Card className="sm:w-[500px] w-fit">
+    <Card className="sm:w-[500px]">
       <CardHeader>
         <CardTitle>Bar Chart - Monthly Growth</CardTitle>
         <CardDescription>January - June 2025</CardDescription>

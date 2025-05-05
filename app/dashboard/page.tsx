@@ -5,27 +5,14 @@ import { Card, CardContent,CardDescription,CardFooter, CardHeader, CardTitle } f
 import { MoreHorizontal } from "lucide-react"
 
 
-
-
-
-
-
 export default function Page() {
   return (
-    <div className="flex flex-col items-start  justify-items-center min-h-screen  px-18 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col  sm:items-start w-full h-full gap-12 pb-20 pt-12 ">
+    <div className="flex flex-col items-start  justify-items-center min-h-screen  sm:px-18 font-[family-name:var(--font-geist-sans)]">
+      <main className="flex flex-col flex-1 p-8 sm:p-0 gap-8 sm:items-start w-full h-full sm:gap-12 sm:pb-20 sm:pt-12 ">
         {/* heading text */}
-        <div className="flex justify-between w-full items-start">
-          <h1 className="text-2xl font-bold">Analytics</h1>
+        <h1 className="text-2xl font-bold">Analytics</h1>
 
-          {/* <div className="p-2 bg-gray-400 flex gap-4  rounded-full">
-            <h3 className="bg-white p-1">Full Statics</h3>
-            <h3>Result Summary</h3>
-          </div> */}
-        </div>
-
-
-        <div className="flex w-full justify-between space-x-4 grow">
+        <div className="flex w-full justify-between sm:space-x-4 gap-8 sm:gap-0 grow flex-col sm:flex-row">
           <BarChartComponent />
           <LineChartComponent />
 

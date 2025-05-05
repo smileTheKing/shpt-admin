@@ -28,7 +28,7 @@ export function NavMain({
       <SidebarMenu>
         {items.map((item) => (  
                 <SidebarMenuItem key={item.title} className="py-1">
-                   <a href={item.url}>
+                <a href={item.url}>
                 <SidebarMenuButton 
                   tooltip={item.title} 
                   className={item.url === pathname ? "bg-accent" : ""}
