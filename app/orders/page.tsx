@@ -39,7 +39,7 @@ async function getData(): Promise<Payment[]> {
 
   
 
-export default async function ordersPage() {
+export default async function OrdersPage() {
     const data = await getData()
     return (
         <div className="flex flex-col items-start  justify-items-center min-h-screen  px-20 font-[family-name:var(--font-geist-sans)]">
